@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="7d6b03d0-2718-494b-a0d7-6428fc6f9ac6" name="Changes" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitToolBoxStore">
+    <option name="projectConfigVersion" value="5" />
+    <option name="recentBranches">
+      <RecentBranches>
+        <option name="branchesForRepo">
+          <list>
+            <RecentBranchesForRepo>
+              <option name="branches">
+                <list>
+                  <RecentBranch>
+                    <option name="branchName" value="main" />
+                    <option name="lastUsedInstant" value="1715442623" />
+                  </RecentBranch>
+                  <RecentBranch>
+                    <option name="branchName" value="master" />
+                    <option name="lastUsedInstant" value="1715442622" />
+                  </RecentBranch>
+                </list>
+              </option>
+              <option name="repositoryRootUrl" value="file://$PROJECT_DIR$" />
+            </RecentBranchesForRepo>
+          </list>
+        </option>
+      </RecentBranches>
+    </option>
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 3
+}]]></component>
+  <component name="ProjectId" id="2gK8StbgFHxmFnpFL86CWAyENCG" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "TestNG.Assertion_Eg.executor": "Run",
+    "TestNG.Assertion_Eg.qwe.executor": "Run",
+    "TestNG.Assertion_Eg.qwer.executor": "Run",
+    "TestNG.C:/DevLabs/NovBatch2023/TestNG_Demo/testng.xml.executor": "Run",
+    "TestNG.C:/DevLabs/NovBatch2023/TestNG_Demo/testng_Groups.xml.executor": "Run",
+    "TestNG.C:/DevLabs/NovBatch2023/TestNG_Demo/testng_Parameter.xml.executor": "Run",
+    "TestNG.DataProv_Eg.Sum.executor": "Run",
+    "TestNG.DataProv_Eg.executor": "Run",
+    "TestNG.Depends_ON.executor": "Run",
+    "TestNG.FirstTest.executor": "Run",
+    "TestNG.Priorty_Eg.executor": "Run",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/DevLabs/NovBatch2023/TestNG_Demo/TestNG_Basics_Demo"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\DevLabs\NovBatch2023\TestNG_Demo" />
+    </key>
+  </component>
+  <component name="RunManager" selected="TestNG.C:/DevLabs/NovBatch2023/TestNG_Demo/testng_Parameter.xml">
+    <configuration name="C:/DevLabs/NovBatch2023/TestNG_Demo/testng_Groups.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="TestNG_Demo" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/testng_Groups.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="C:/DevLabs/NovBatch2023/TestNG_Demo/testng_Parameter.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="TestNG_Demo" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/testng_Parameter.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DataProv_Eg" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="TestNG_Demo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example" />
+      <option name="MAIN_CLASS_NAME" value="org.example.DataProv_Eg" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DataProv_Eg.Sum" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="TestNG_Demo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example" />
+      <option name="MAIN_CLASS_NAME" value="org.example.DataProv_Eg" />
+      <option name="METHOD_NAME" value="Sum" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Depends_ON" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="TestNG_Demo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example" />
+      <option name="MAIN_CLASS_NAME" value="org.example.Depends_ON" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="TestNG.C:/DevLabs/NovBatch2023/TestNG_Demo/testng_Parameter.xml" />
+        <item itemvalue="TestNG.DataProv_Eg.Sum" />
+        <item itemvalue="TestNG.DataProv_Eg" />
+        <item itemvalue="TestNG.C:/DevLabs/NovBatch2023/TestNG_Demo/testng_Groups.xml" />
+        <item itemvalue="TestNG.Depends_ON" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="7d6b03d0-2718-494b-a0d7-6428fc6f9ac6" name="Changes" comment="" />
+      <created>1715434913847</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1715434913847</updated>
+    </task>
+    <servers />
+  </component>
+</project>
