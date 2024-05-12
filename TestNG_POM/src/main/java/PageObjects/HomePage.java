@@ -8,7 +8,7 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.Select;
 
-public class HomePage {
+public class HomePage extends BaseTestClass{
 
     @FindBy(css = "select[data-test=\"product-sort-container\"]")
     WebElement product_sort_Dropdown;
@@ -19,7 +19,7 @@ public class HomePage {
 
     public HomePage(WebDriver driver){
         PageFactory.initElements(driver,this);
-        BaseTestClass.driver = driver;
+       // BaseTestClass.driver = driver;
     }
 
     public void Select_Filter(String value){
@@ -28,8 +28,7 @@ public class HomePage {
     }
 
 
-    public void logout(){
-        //JavascriptExecutor js = (JavascriptExecutor) driver;
-      //  js.executeScript("")
+    public void clicklogout(){
+      logOut.click();
     }
 }

@@ -28,7 +28,7 @@ public class TestSauceLabs extends BaseTestClass {
     public void homePageTest(){
         homePage = new HomePage(driver);
         homePage.Select_Filter("Price (low to high)");
-
+        homePage.clicklogout();
 
     }
 }
