@@ -17,6 +17,7 @@ Feature: Facebook Login
     When the user enters the "<username>" in username webedit
     And the user enters the "<password>" in password webedit
     And the user clicks on login button
+
     Examples:
       | username | password |
     |Tom       |admin     |

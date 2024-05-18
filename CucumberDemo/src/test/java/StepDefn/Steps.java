@@ -1,8 +1,15 @@
 package StepDefn;
 
+import io.cucumber.java.After;
+import io.cucumber.java.AfterStep;
+import io.cucumber.java.Before;
+import io.cucumber.java.Scenario;
 import io.cucumber.java.en.*;
+
 import org.junit.Assert;
 import org.openqa.selenium.By;
+import org.openqa.selenium.OutputType;
+import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 
@@ -11,12 +18,51 @@ import java.time.Duration;
 public class Steps {
 
     WebDriver driver;
+
+    @Before()
+    public void initBrowser(){
+        driver = new ChromeDriver();
+        driver.manage().window().maximize();
+        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5));
+    }
+
+
+    @After(order = 0)
+    public void tearDown(){
+        driver.close();
+        driver.quit();
+    }
+
+//
+//    @After(order = 1)
+//    public void takeScreenshot(Scenario scenario){
+//        if(scenario.isFailed()){
+//            byte[] source =     ((TakesScreenshot)driver).getScreenshotAs(OutputType.BYTES);
+//            scenario.attach(source,"image/png",scenario.getName());
+//        }
+//
+//    }
+
+
+
+
+    @AfterStep(order = 1)
+    public void takeScreenshot(Scenario scenario){
+   //     if(scenario.isFailed()){
+            byte[] source =     ((TakesScreenshot)driver).getScreenshotAs(OutputType.BYTES);
+            scenario.attach(source,"image/png",scenario.getName());
+     //   }
+
+    }
+
+
+
+
     @Given("the user launches the application")
     public void the_user_launches_the_application() {
-        driver = new ChromeDriver();
+
         driver.get("https://www.facebook.com/");
-        driver.manage().window().maximize();
-        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(30));
+
     }
     @Then("the user verifies the facebook logo")
     public void the_user_verifies_the_facebook_logo() {
@@ -44,7 +90,7 @@ public class Steps {
     }
     @When("the user enters the {string} in password webedit")
     public void the_user_enters_the_in_password_webedit(String pass) {
-        driver.findElement(By.name("pass")).sendKeys(pass);
+        driver.findElement(By.name("as")).sendKeys(pass);
     }
 
 
