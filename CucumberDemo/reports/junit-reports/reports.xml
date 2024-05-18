@@ -1,13 +1,39 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="Cucumber" time="0.285" tests="1" skipped="0" failures="1" errors="0">
-<testcase classname="Facebook Login" name="Verify facebook login" time="0.05">
-<failure/>
+<testsuite name="Cucumber" time="11.716" tests="4" skipped="0" failures="0" errors="0">
+<testcase classname="Facebook Login" name="Verify facebook login" time="3.232">
 <system-out><![CDATA[
-Given the user launches the application.....................................undefined
-Then the user verifies the facebook logo....................................skipped
-When the user enters the username in username webedit.......................skipped
-And the user enters the password in password webedit........................skipped
-And the user clicks on login button.........................................skipped
+Given the user launches the application.....................................passed
+Then the user verifies the facebook logo....................................passed
+When the user enters the username in username webedit.......................passed
+And the user enters the password in password webedit........................passed
+And the user clicks on login button.........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Facebook Login" name="Verify facebook login with &lt;username&gt; - Example #1.1" time="2.78">
+<system-out><![CDATA[
+Given the user launches the application.....................................passed
+Then the user verifies the facebook logo....................................passed
+When the user enters the "Tom" in username webedit..........................passed
+And the user enters the "admin" in password webedit.........................passed
+And the user clicks on login button.........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Facebook Login" name="Verify facebook login with &lt;username&gt; - Example #1.2" time="2.751">
+<system-out><![CDATA[
+Given the user launches the application.....................................passed
+Then the user verifies the facebook logo....................................passed
+When the user enters the "Jerry" in username webedit........................passed
+And the user enters the "pass" in password webedit..........................passed
+And the user clicks on login button.........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Facebook Login" name="Verify facebook login with &lt;username&gt; - Example #1.3" time="2.739">
+<system-out><![CDATA[
+Given the user launches the application.....................................passed
+Then the user verifies the facebook logo....................................passed
+When the user enters the "Kohli" in username webedit........................passed
+And the user enters the "virat" in password webedit.........................passed
+And the user clicks on login button.........................................passed
 ]]></system-out>
 </testcase>
 </testsuite>
