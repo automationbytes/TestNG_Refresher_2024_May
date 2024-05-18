@@ -4,14 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="77516a12-0100-4335-9110-e3f921ac73c7" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/TestNG_POM/src/main/java/listeners/ExtentListeners.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TestNG_POM/src/main/java/listeners/ExtentManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TestNG_POM/testNg.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestNG_POM/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/TestNG_POM/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestNG_POM/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/TestNG_POM/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestNG_POM/src/main/java/PageObjects/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/TestNG_POM/src/main/java/PageObjects/HomePage.java" afterDir="false" />
-    </list>
+    <list default="true" id="77516a12-0100-4335-9110-e3f921ac73c7" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -25,7 +18,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="GitToolBoxStore">
     <option name="projectConfigVersion" value="5" />
@@ -49,9 +42,9 @@
       </RecentBranches>
     </option>
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 4
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 4
+}</component>
   <component name="ProjectId" id="2gMxaGq8KpNUsLnCqfIqT2vWKif" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -67,7 +60,7 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "TestNG.C:/DevLabs/NovBatch2023/TestNG_Demo/TestNG_POM/testNg.xml.executor": "Run",
     "TestNG.TestSauceLabs.executor": "Run",
-    "git-widget-placeholder": "<unknown>",
+    "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "C:/DevLabs/NovBatch2023/TestNG_Demo/TestNG_POM"
   }
