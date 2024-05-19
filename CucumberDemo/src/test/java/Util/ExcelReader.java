@@ -7,7 +7,7 @@ import java.io.File;
 import java.io.FileInputStream;
 import java.util.Arrays;
 
-public class ExcelReade {
+public class ExcelReader {
     public static String ReadExcel(String Label, String Header) throws Exception {
 
         FileInputStream fileInputStream = new FileInputStream("src/test/resources/DataSheet/Datasheet1.xlsx");
