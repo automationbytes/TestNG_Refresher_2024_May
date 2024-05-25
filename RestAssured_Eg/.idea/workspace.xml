@@ -14,6 +14,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -34,12 +35,15 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.DeleteReq.executor": "Run",
     "Application.PostReqasJsonObject.executor": "Run",
+    "Application.PutReq.executor": "Run",
     "Application.UsingPojo.executor": "Run",
     "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "TestNG.E2E.executor": "Run",
     "TestNG.Hamcrest_Validation.usingAssertion.executor": "Run",
     "TestNG.PostReq_AsString.PostReq (1).executor": "Run",
     "TestNG.PostReq_AsString.PostReq.executor": "Run",
@@ -51,9 +55,35 @@
     "settings.editor.selected.configurable": "preferences.pluginManager"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.UsingPojo">
+  <component name="RunManager" selected="TestNG.E2E">
+    <configuration name="DeleteReq" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.DeleteReq" />
+      <module name="RestAssured_Eg" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="PostReqasJsonObject" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.PostReqasJsonObject" />
+      <module name="RestAssured_Eg" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PutReq" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.PutReq" />
       <module name="RestAssured_Eg" />
       <extension name="coverage">
         <pattern>
@@ -78,7 +108,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PostReq_AsString.PostReq (1)" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="E2E" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="RestAssured_Eg" />
       <extension name="coverage">
         <pattern>
@@ -87,45 +117,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="org.example" />
-      <option name="MAIN_CLASS_NAME" value="org.example.PostReq_AsString" />
-      <option name="METHOD_NAME" value="PostReq" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="PostReq_AsString.PostReq" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="RestAssured_Eg" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="org.example" />
-      <option name="MAIN_CLASS_NAME" value="org.example.PostReq_AsString" />
-      <option name="METHOD_NAME" value="PostReq" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="PostReqasHashMap.PostReq" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="RestAssured_Eg" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="org.example" />
-      <option name="MAIN_CLASS_NAME" value="org.example.PostReqasHashMap" />
-      <option name="METHOD_NAME" value="PostReq" />
-      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="MAIN_CLASS_NAME" value="org.example.E2E" />
+      <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
       <method v="2">
@@ -134,11 +127,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.E2E" />
+        <item itemvalue="Application.DeleteReq" />
+        <item itemvalue="Application.PutReq" />
         <item itemvalue="Application.UsingPojo" />
         <item itemvalue="Application.PostReqasJsonObject" />
-        <item itemvalue="TestNG.PostReqasHashMap.PostReq" />
-        <item itemvalue="TestNG.PostReq_AsString.PostReq (1)" />
-        <item itemvalue="TestNG.PostReq_AsString.PostReq" />
       </list>
     </recent_temporary>
   </component>
