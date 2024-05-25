@@ -4,18 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6ed83639-fea8-44c2-b02c-9184e5f4c086" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/AppTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/Hamcrest_Validation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/getReq.java" afterDir="false" />
-    </list>
+    <list default="true" id="6ed83639-fea8-44c2-b02c-9184e5f4c086" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -29,7 +18,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="GitToolBoxStore">
     <option name="projectConfigVersion" value="5" />
@@ -45,19 +34,51 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.PostReqasJsonObject.executor": "Run",
+    "Application.UsingPojo.executor": "Run",
     "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "TestNG.Hamcrest_Validation.usingAssertion.executor": "Run",
+    "TestNG.PostReq_AsString.PostReq (1).executor": "Run",
+    "TestNG.PostReq_AsString.PostReq.executor": "Run",
+    "TestNG.PostReqasHashMap.PostReq.executor": "Run",
     "TestNG.getReq.getReqEg.executor": "Run",
     "TestNG.getReq.usingAssertion.executor": "Run",
-    "git-widget-placeholder": "master",
-    "kotlin-language-version-configured": "true"
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
   }
 }]]></component>
-  <component name="RunManager" selected="TestNG.Hamcrest_Validation.usingAssertion">
-    <configuration name="Hamcrest_Validation.usingAssertion" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Application.UsingPojo">
+    <configuration name="PostReqasJsonObject" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.PostReqasJsonObject" />
+      <module name="RestAssured_Eg" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UsingPojo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.UsingPojo" />
+      <module name="RestAssured_Eg" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PostReq_AsString.PostReq (1)" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="RestAssured_Eg" />
       <extension name="coverage">
         <pattern>
@@ -66,8 +87,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="org.example" />
-      <option name="MAIN_CLASS_NAME" value="org.example.Hamcrest_Validation" />
-      <option name="METHOD_NAME" value="usingAssertion" />
+      <option name="MAIN_CLASS_NAME" value="org.example.PostReq_AsString" />
+      <option name="METHOD_NAME" value="PostReq" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -75,7 +96,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="getReq.getReqEg" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="PostReq_AsString.PostReq" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="RestAssured_Eg" />
       <extension name="coverage">
         <pattern>
@@ -84,8 +105,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="org.example" />
-      <option name="MAIN_CLASS_NAME" value="org.example.getReq" />
-      <option name="METHOD_NAME" value="getReqEg" />
+      <option name="MAIN_CLASS_NAME" value="org.example.PostReq_AsString" />
+      <option name="METHOD_NAME" value="PostReq" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -93,7 +114,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="getReq.usingAssertion" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="PostReqasHashMap.PostReq" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="RestAssured_Eg" />
       <extension name="coverage">
         <pattern>
@@ -102,8 +123,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="org.example" />
-      <option name="MAIN_CLASS_NAME" value="org.example.getReq" />
-      <option name="METHOD_NAME" value="usingAssertion" />
+      <option name="MAIN_CLASS_NAME" value="org.example.PostReqasHashMap" />
+      <option name="METHOD_NAME" value="PostReq" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -113,9 +134,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.Hamcrest_Validation.usingAssertion" />
-        <item itemvalue="TestNG.getReq.usingAssertion" />
-        <item itemvalue="TestNG.getReq.getReqEg" />
+        <item itemvalue="Application.UsingPojo" />
+        <item itemvalue="Application.PostReqasJsonObject" />
+        <item itemvalue="TestNG.PostReqasHashMap.PostReq" />
+        <item itemvalue="TestNG.PostReq_AsString.PostReq (1)" />
+        <item itemvalue="TestNG.PostReq_AsString.PostReq" />
       </list>
     </recent_temporary>
   </component>
@@ -129,5 +152,16 @@
       <updated>1716644617694</updated>
     </task>
     <servers />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/org/example/PostReqasJsonObject.java</url>
+          <line>10</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
