@@ -1,0 +1,61 @@
+import ctypes
+import time
+import random
+
+# Define ULONG_PTR
+ULONG_PTR = ctypes.c_ulong
+
+# Import wintypes
+import ctypes.wintypes as wintypes
+
+# Load the user32 library
+user32 = ctypes.windll.user32
+
+# Define the KEYBDINPUT structure
+class KEYBDINPUT(ctypes.Structure):
+    _fields_ = [
+        ('wVk', wintypes.WORD),
+        ('wScan', wintypes.WORD),
+        ('dwFlags', wintypes.DWORD),
+        ('time', wintypes.DWORD),
+        ('dwExtraInfo', ULONG_PTR),
+    ]
+
+# Define the INPUT structure
+class INPUT(ctypes.Structure):
+    _fields_ = [
+        ('type', wintypes.DWORD),
+        ('ki', KEYBDINPUT),
+    ]
+
+# Define the SendInput function
+SendInput = user32.SendInput
+SendInput.argtypes = [wintypes.UINT, ctypes.POINTER(INPUT), wintypes.INT]
+SendInput.restype = wintypes.UINT
+
+# Simulate a key press using SendInput with randomization
+def press_key(key_code):
+    input_struct = INPUT()
+    input_struct.type = 1  # INPUT_KEYBOARD
+    input_struct.ki.wVk = key_code
+    delay = random.uniform(0.1, 0.5)  # random delay between 0.1 and 0.5 seconds
+    time.sleep(delay)
+    SendInput(1, ctypes.byref(input_struct), ctypes.sizeof(INPUT))
+
+# Simulate a key release using SendInput with randomization
+def release_key(key_code):
+    input_struct = INPUT()
+    input_struct.type = 1  # INPUT_KEYBOARD
+    input_struct.ki.wVk = key_code
+    input_struct.ki.dwFlags = 2  # KEYEVENTF_KEYUP
+    delay = random.uniform(0.1, 0.5)  # random delay between 0.1 and 0.5 seconds
+    time.sleep(delay)
+    SendInput(1, ctypes.byref(input_struct), ctypes.sizeof(INPUT))
+
+# Example usage:
+while True:
+    key_code = random.choice([0x41, 0x42, 0x43, 0x44, 0x45])  # random key code
+    press_key(key_code)
+    time.sleep(random.uniform(0.5, 2))  # random delay between 0.5 and 2 seconds
+    release_key(key_code)
+    time.sleep(random.uniform(0.5, 2))  # random delay between 0.5 and 2 seconds
