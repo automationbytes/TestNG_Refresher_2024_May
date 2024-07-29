@@ -1,3 +1,5 @@
+
+#https://github.com/Johnson468/Stay-Awake/blob/master/src/awake.py
 import pyautogui
 import time
 import random
